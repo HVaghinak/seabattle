@@ -4,7 +4,6 @@ Simple sea battle API
 Clone the project, create new virtual env for the project, after go to project directory and run 
 ```
 pip install -r requirements.txt
-python manage.py migrate
 ```
 Configure DB
 
@@ -22,6 +21,7 @@ $ ALTER USER seabattle CREATEDB;
 
 Run 
 ```
+python manage.py migrate
 python manage.py runserver
 ```
 
